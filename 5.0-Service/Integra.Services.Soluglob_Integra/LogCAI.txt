@@ -1,0 +1,279 @@
+05/07/2017 09:59:28 a. m. Se recupero el Id_Per maximo exitosamente
+05/07/2017 09:59:46 a. m. Se recupero el Numero_Nomina maximo exitosamente
+05/07/2017 10:01:05 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+05/07/2017 10:01:19 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+05/07/2017 10:09:18 a. m. Se recupero el Id_Per maximo exitosamente
+05/07/2017 10:09:22 a. m. Se recupero el Numero_Nomina maximo exitosamente
+05/07/2017 10:11:38 a. m. Se recupero el Id_Per maximo exitosamente
+05/07/2017 10:12:05 a. m. Se recupero el Numero_Nomina maximo exitosamente
+05/07/2017 10:12:56 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+05/07/2017 10:13:01 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+05/07/2017 10:46:35 a. m. Se recupero el Id_Per maximo exitosamente
+05/07/2017 10:46:40 a. m. Se recupero el Numero_Nomina maximo exitosamente
+05/07/2017 10:47:26 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+05/07/2017 10:47:31 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+05/07/2017 11:10:23 a. m. Se recupero el Id_Per maximo exitosamente
+05/07/2017 11:10:30 a. m. Se recupero el Numero_Nomina maximo exitosamente
+05/07/2017 11:10:42 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+05/07/2017 11:10:50 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+05/07/2017 11:11:38 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+05/07/2017 11:11:44 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+05/07/2017 11:11:52 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+05/07/2017 11:11:58 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+05/07/2017 11:12:05 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+05/07/2017 11:12:10 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+05/07/2017 11:16:27 a. m. Se recupero el Id_Per maximo exitosamente
+05/07/2017 11:16:32 a. m. Se recupero el Numero_Nomina maximo exitosamente
+05/07/2017 11:16:51 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+05/07/2017 11:16:56 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+05/07/2017 11:17:09 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+05/07/2017 11:17:09 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+05/07/2017 11:17:09 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+05/07/2017 11:17:09 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+05/07/2017 11:17:09 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+05/07/2017 11:19:25 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+06/07/2017 05:31:53 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 05:32:37 p. m. Error al recuperar el registro inicial de la tabla Personal del empleado: 14823456
+06/07/2017 05:32:47 p. m. Rollback: El campo 'Estatus Proceso' del empleado: 14823456 se regreso a su punto inicial correctamente
+06/07/2017 05:35:03 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 05:35:19 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 05:35:24 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 05:35:32 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 05:36:13 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 05:37:04 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 05:37:32 p. m. Rollback: La vacante: 769se regreso a su punto inicial correctamente
+06/07/2017 05:38:19 p. m. Rollback: Error al intentar regresar al punto inicial la vacante: 769
+06/07/2017 05:39:09 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 05:39:09 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 05:39:09 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 05:39:09 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 05:39:09 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 05:39:20 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 05:40:36 p. m. Rollback: La vacante: 769se regreso a su punto inicial correctamente
+06/07/2017 05:40:36 p. m. Rollback: Error al intentar regresar al punto inicial la vacante: 769
+06/07/2017 05:42:22 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 05:42:22 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 05:42:22 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 05:42:22 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 05:42:22 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 05:42:22 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 05:43:04 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 14823456 de forma exitosa.
+06/07/2017 05:43:14 p. m. Se asigno al empleado: 14823456 a la nueva vacante de forma exitosa
+06/07/2017 05:43:20 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 14823456
+06/07/2017 05:43:26 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 14823456
+06/07/2017 05:50:49 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 05:50:54 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 05:50:59 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 05:51:10 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 05:51:33 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 05:51:43 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 05:52:21 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 14823456 de forma exitosa.
+06/07/2017 05:52:34 p. m. Se asigno al empleado: 14823456 a la nueva vacante de forma exitosa
+06/07/2017 05:53:30 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 14823456
+06/07/2017 05:53:36 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 14823456
+06/07/2017 05:56:15 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 05:56:20 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 05:56:25 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 05:56:31 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 05:57:33 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 05:57:40 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 05:57:52 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 14823456 de forma exitosa.
+06/07/2017 05:57:59 p. m. Se asigno al empleado: 14823456 a la nueva vacante de forma exitosa
+06/07/2017 05:58:11 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 14823456
+06/07/2017 05:58:23 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 14823456
+06/07/2017 06:00:19 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 06:00:27 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 06:00:27 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 06:00:27 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 06:01:09 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 06:01:16 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 06:01:24 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 14823456 de forma exitosa.
+06/07/2017 06:01:31 p. m. Se asigno al empleado: 14823456 a la nueva vacante de forma exitosa
+06/07/2017 06:01:41 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 14823456
+06/07/2017 06:01:48 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 14823456
+06/07/2017 06:10:03 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 06:10:03 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 06:10:03 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 06:10:03 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 06:10:50 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 06:10:57 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 06:11:03 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 14823456 de forma exitosa.
+06/07/2017 06:11:14 p. m. Se asigno al empleado: 14823456 a la nueva vacante de forma exitosa
+06/07/2017 06:11:14 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 14823456
+06/07/2017 06:11:14 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 14823456
+06/07/2017 06:15:03 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 06:15:12 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 06:15:12 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 06:15:12 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 06:16:35 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 06:16:49 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 06:16:58 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 14823456 de forma exitosa.
+06/07/2017 06:17:04 p. m. Se asigno al empleado: 14823456 a la nueva vacante de forma exitosa
+06/07/2017 06:17:19 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 14823456
+06/07/2017 06:17:24 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 14823456
+06/07/2017 06:20:36 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+06/07/2017 06:20:36 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+06/07/2017 06:20:36 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+06/07/2017 06:20:36 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+06/07/2017 06:22:25 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 14823456
+06/07/2017 06:22:32 p. m. Se libera la vacante que ocupa actualmente el empleado: 14823456 de forma exitosa
+06/07/2017 06:22:41 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 14823456 de forma exitosa.
+06/07/2017 06:22:46 p. m. Se asigno al empleado: 14823456 a la nueva vacante de forma exitosa
+06/07/2017 06:22:57 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 14823456
+06/07/2017 06:22:57 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 14823456
+07/07/2017 04:50:01 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 14823456
+07/07/2017 04:50:19 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 14823456
+07/07/2017 04:50:38 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 14823456
+07/07/2017 04:50:45 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 14823456
+12/07/2017 10:04:11 a. m. Se recupero el Id_Per maximo exitosamente
+12/07/2017 10:04:11 a. m. Se recupero el Numero_Nomina maximo exitosamente
+12/07/2017 10:04:16 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+12/07/2017 10:04:29 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+12/07/2017 10:04:32 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+12/07/2017 10:04:33 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+12/07/2017 10:04:33 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+12/07/2017 10:04:33 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+12/07/2017 10:04:33 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+12/07/2017 10:07:45 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+12/07/2017 10:08:13 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+12/07/2017 10:08:31 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+12/07/2017 10:08:41 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+12/07/2017 10:09:17 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+12/07/2017 10:57:13 a. m. Se recupero el Id_Per maximo exitosamente
+12/07/2017 10:57:13 a. m. Se recupero el Numero_Nomina maximo exitosamente
+12/07/2017 10:57:15 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+12/07/2017 10:57:21 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+12/07/2017 10:57:38 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+12/07/2017 10:57:44 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+12/07/2017 10:57:47 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+12/07/2017 10:57:50 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+12/07/2017 10:57:50 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+12/07/2017 11:04:18 a. m. Se recupero el Id_Per maximo exitosamente
+12/07/2017 11:04:18 a. m. Se recupero el Numero_Nomina maximo exitosamente
+12/07/2017 11:04:21 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+12/07/2017 11:04:31 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+12/07/2017 11:04:33 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+12/07/2017 11:04:33 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+12/07/2017 11:04:33 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+12/07/2017 11:04:33 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+12/07/2017 11:04:33 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+12/07/2017 11:05:10 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+12/07/2017 11:09:19 a. m. Se recupero el Id_Per maximo exitosamente
+12/07/2017 11:09:19 a. m. Se recupero el Numero_Nomina maximo exitosamente
+12/07/2017 11:09:19 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+12/07/2017 11:09:19 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+12/07/2017 11:09:20 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+12/07/2017 11:09:20 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+12/07/2017 11:09:20 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+12/07/2017 11:09:20 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+12/07/2017 11:09:20 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+12/07/2017 11:09:20 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+12/07/2017 11:18:04 a. m. Se recupero el Id_Per maximo exitosamente
+12/07/2017 11:18:04 a. m. Se recupero el Numero_Nomina maximo exitosamente
+12/07/2017 11:18:06 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+12/07/2017 11:18:10 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+12/07/2017 11:18:13 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+12/07/2017 11:18:13 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+12/07/2017 11:18:13 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+12/07/2017 11:18:13 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+12/07/2017 11:18:13 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+12/07/2017 11:18:14 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+12/07/2017 11:20:22 a. m. Se recupero el Id_Per maximo exitosamente
+12/07/2017 11:20:23 a. m. Se recupero el Numero_Nomina maximo exitosamente
+12/07/2017 11:20:24 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+12/07/2017 11:20:31 a. m. Se recupera el Id minimo disponible de la vacante del puesto.
+12/07/2017 11:20:33 a. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+12/07/2017 11:20:33 a. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+12/07/2017 11:20:34 a. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+12/07/2017 11:20:34 a. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+12/07/2017 11:20:34 a. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+12/07/2017 11:20:34 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+24/07/2017 07:29:52 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1483029
+24/07/2017 07:29:52 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1483029
+24/07/2017 07:29:52 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1483029
+24/07/2017 07:30:04 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1483029
+24/07/2017 07:31:16 p. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 1483029
+24/07/2017 07:31:58 p. m. Se libera la vacante que ocupa actualmente el empleado: 1483029 de forma exitosa
+24/07/2017 07:32:17 p. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 1483029 de forma exitosa.
+24/07/2017 07:32:33 p. m. Se asigno al empleado: 1483029 a la nueva vacante de forma exitosa
+24/07/2017 07:32:46 p. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 1483029
+24/07/2017 07:32:59 p. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 1483029
+26/07/2017 06:58:29 p. m. Se recupero el Id_Per maximo exitosamente
+26/07/2017 06:58:38 p. m. Se recupero el Numero_Nomina maximo exitosamente
+26/07/2017 07:00:02 p. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.
+26/07/2017 07:03:14 p. m. Se recupera el Id minimo disponible de la vacante del puesto.
+26/07/2017 07:03:35 p. m. Los datos de la tabla 'Usuarios' se insertaron exitosamente
+26/07/2017 07:03:55 p. m. Los datos de la tabla 'Horarios' se insertaron exitosamente
+26/07/2017 07:04:12 p. m. Los datos de la tabla 'Tb_Personal' se insertaron exitosamente
+26/07/2017 07:04:26 p. m. El campo 'Id_Per' de la tabla 'Tb_Vacantes' se actualizo correctamente
+26/07/2017 07:04:46 p. m. Los datos de la tabla 'TB_PerVac' se insertaron exitosamente
+26/07/2017 07:04:57 p. m. El campo 'Estatus Proceso' fue actualizado correctamente
+28/07/2017 05:47:11 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1699
+28/07/2017 05:47:35 p. m. Error al recuperar el registro inicial de la tabla Personal del empleado: 1699
+28/07/2017 05:47:42 p. m. Rollback: El campo 'Estatus Proceso' del empleado: 1699 se regreso a su punto inicial correctamente
+28/07/2017 05:49:40 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1699
+28/07/2017 05:49:40 p. m. Error al recuperar el registro inicial de la tabla Personal del empleado: 1699
+28/07/2017 05:49:40 p. m. Rollback: El campo 'Estatus Proceso' del empleado: 1699 se regreso a su punto inicial correctamente
+28/07/2017 05:50:02 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 05:50:14 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 05:50:54 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 05:50:58 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 05:51:14 p. m. Rollback: Error al intentar regresar al punto inicial la vacante: 0
+28/07/2017 06:33:03 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:33:03 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:33:03 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:33:19 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:34:03 p. m. Rollback: Error al intentar regresar al punto inicial la vacante: 0
+28/07/2017 06:35:29 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:35:29 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:35:29 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:35:29 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:39:32 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:39:32 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:39:32 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:39:37 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:41:36 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:41:36 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:41:36 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:41:40 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:52:45 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:52:45 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:52:45 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:52:53 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:53:50 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:53:50 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:53:50 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:53:50 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:54:42 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:54:42 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:54:42 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:54:43 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:55:51 p. m. Rollback: Error al intentar regresar al punto inicial la vacante: 0
+28/07/2017 06:56:44 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+28/07/2017 06:56:44 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+28/07/2017 06:56:44 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+28/07/2017 06:56:44 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+28/07/2017 06:57:43 p. m. Rollback: Error al intentar regresar al punto inicial la vacante: 0
+31/07/2017 07:13:27 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+31/07/2017 07:13:53 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+31/07/2017 07:13:59 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+31/07/2017 07:14:09 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+31/07/2017 07:18:08 p. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+31/07/2017 07:18:08 p. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+31/07/2017 07:18:08 p. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+31/07/2017 07:18:08 p. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+31/07/2017 07:18:40 p. m. No se encuentra la relacion entre Puesto, Centro de Costos y Unidad de Costos del empleado: 1481699
+31/07/2017 07:18:42 p. m. Rollback: Error al intentar regresar al punto inicial la vacante: 0
+02/08/2017 10:21:02 a. m. Recuperacion de datos de QProcess exitosamente del empleado: 1481699
+02/08/2017 10:21:02 a. m. Se recuperan los datos de tabla Personal exitosamente del empleado: 1481699
+02/08/2017 10:21:02 a. m. Se recuperan los datos de tabla Vacantes exitosamente del empleado: 1481699
+02/08/2017 10:21:02 a. m. Se recuperan los datos de tabla PerVac exitosamente del empleado: 1481699
+02/08/2017 10:21:02 a. m. Se recupera el Id minimo disponible de la vacante del puesto del empleado: 1481699
+02/08/2017 10:21:02 a. m. Se libera la vacante que ocupa actualmente el empleado: 1481699 de forma exitosa
+02/08/2017 10:21:02 a. m. Se elimino la relacion de la tabla Tb_PerVac que ocupa el empleado: 1481699 de forma exitosa.
+02/08/2017 10:21:02 a. m. Se asigno al empleado: 1481699 a la nueva vacante de forma exitosa
+02/08/2017 10:21:02 a. m. Se inserta la nueva relacion PerVac de forma exitosa del empleado: 1481699
+02/08/2017 10:21:02 a. m. El campo 'Estatus Proceso Movimiento' fue actualizado correctamente del empleado: 1481699
+11/08/2017 02:12:19 p. m. Se recupero el Id_Per maximo exitosamente
+11/08/2017 02:12:28 p. m. Se recupero el Numero_Nomina maximo exitosamente
+11/08/2017 02:14:20 p. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado de Soluglob.

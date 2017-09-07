@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{695644FA-B141-492F-A004-12BC3461AF48}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Integra.Services.Soluglob_Integra</RootNamespace>
+    <AssemblyName>Integra.Services.Soluglob_Integra</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Soluglob_Integra.svc" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Soluglob_Integra.svc.cs">
+      <DependentUpon>Soluglob_Integra.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISoluglob_Integra.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\Soluglob_Integra.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\0.0-Entities\Entities\Integra.Services.Entities.Kaizen\Integra.Services.Entities.Kaizen.csproj">
+      <Project>{cdaae928-3a74-41e7-8cda-7856de9fdb14}</Project>
+      <Name>Integra.Services.Entities.Kaizen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\0.0-Entities\Entities\Integra.Services.Entities.QProcess\Integra.Services.Entities.QProcess.csproj">
+      <Project>{c6edb310-b01e-43a3-96a8-00175a765d6d}</Project>
+      <Name>Integra.Services.Entities.QProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\0.0-Entities\Entities\Integra.Services.Entities.SoluglobAdministrativo\Integra.Services.Entities.SoluglobAdministrativo.csproj">
+      <Project>{9d0b0b0c-2924-478b-a425-6d85f0881fa0}</Project>
+      <Name>Integra.Services.Entities.SoluglobAdministrativo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\0.0-Entities\Entities\Integra.Services.Entities.SoluglobChecador\Integra.Services.Entities.SoluglobChecador.csproj">
+      <Project>{3377d3af-412a-4e14-b033-ce98acc14808}</Project>
+      <Name>Integra.Services.Entities.SoluglobChecador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\2.0-Business\Business\Integra.Services.Business.Kaizen\Integra.Services.Business.Kaizen.csproj">
+      <Project>{9333788a-e301-4c08-837c-6b44aa8647b2}</Project>
+      <Name>Integra.Services.Business.Kaizen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\2.0-Business\Business\Integra.Services.Business.QProcess\Integra.Services.Business.QProcess.csproj">
+      <Project>{3f014b75-8407-4634-8e90-f40456045af2}</Project>
+      <Name>Integra.Services.Business.QProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\2.0-Business\Business\Integra.Services.Business.SoluglobAdministrativo\Integra.Services.Business.SoluglobAdministrativo.csproj">
+      <Project>{6cb9eb45-044d-444b-8298-cfeaef1f75a9}</Project>
+      <Name>Integra.Services.Business.SoluglobAdministrativo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\2.0-Business\Business\Integra.Services.Business.SoluglobChecador\Integra.Services.Business.SoluglobChecador.csproj">
+      <Project>{85ad8a77-81ca-4255-9ac0-70987daa9083}</Project>
+      <Name>Integra.Services.Business.SoluglobChecador</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58142</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58142/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

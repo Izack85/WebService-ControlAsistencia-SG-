@@ -1,0 +1,231 @@
+03/07/2017 11:47:15 a. m. Referencia a objeto no establecida como instancia de un objeto. En el metodo Insert de la clase H_Sueldos
+03/07/2017 11:49:03 a. m. Error en la Actualización Estatus Proceso Movimiento En el metodo MovimientoEmpleadoKaizen de la clase Empleado
+03/07/2017 11:57:17 a. m. Error en la actualización de Estatus Proceso Movimiento. En el metodo MovimientoEmpleadoKaizen de la clase Empleado
+03/07/2017 11:59:30 a. m. Error en la actualización de Estatus Proceso Movimiento. En el metodo MovimientoEmpleadoKaizen de la clase Empleado
+03/07/2017 12:00:29 p. m. Recuperacion de datos de QProcess exitosamente.
+03/07/2017 12:00:29 p. m. Actualizacion de Sueldo exitosa.
+03/07/2017 12:00:39 p. m. Rollback a tabla Requisicion Movimiento, el campo 'Estatus proceso' se regresa a su punto inicial.
+03/07/2017 12:00:41 p. m. Error en la actualización de Estatus Proceso Movimiento. En el metodo MovimientoEmpleadoKaizen de la clase Empleado
+04/07/2017 04:43:14 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+04/07/2017 04:43:56 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+04/07/2017 04:45:23 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+04/07/2017 04:45:23 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+04/07/2017 04:46:20 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+04/07/2017 04:46:31 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+04/07/2017 04:52:58 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+04/07/2017 04:52:58 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+04/07/2017 04:57:48 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+04/07/2017 04:57:48 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+04/07/2017 04:58:28 p. m. Rollback: El SM de la compañia 148 empleado 23456 fue borrado correctamente
+04/07/2017 04:59:03 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 14823456 En el metodo MovimientoEmpleadoKaizen de la clase Empleado
+04/07/2017 05:06:21 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+04/07/2017 05:06:21 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+04/07/2017 05:06:57 p. m. Rollback: El SM de la compañia 148 empleado 23456 fue borrado correctamente
+04/07/2017 05:07:14 p. m. Rollback: El campo 'Estatus Proceso Movimiento' del empleado:14823456 se regreso a su punto de origen correctamente
+04/07/2017 05:07:22 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 14823456 En el metodo MovimientoEmpleadoKaizen de la clase Empleado
+04/07/2017 05:08:11 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+04/07/2017 05:08:11 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+04/07/2017 05:08:15 p. m. Rollback: El SM de la compañia 148 empleado 23456 fue borrado correctamente
+04/07/2017 05:08:16 p. m. Rollback: El campo 'Estatus Proceso Movimiento' del empleado:14823456 se regreso a su punto de origen correctamente
+04/07/2017 05:08:19 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 14823456 En el metodo MovimientoEmpleadoKaizen de la clase Empleado
+06/07/2017 05:49:23 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 05:49:34 p. m. Actualizacion de Puesto exitosa del empleado: 14823456
+06/07/2017 05:49:49 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 05:54:16 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 05:54:48 p. m. Actualizacion de Centro de Costos exitosa del empleado: 14823456
+06/07/2017 05:55:06 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 05:59:13 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 05:59:20 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 14823456
+06/07/2017 05:59:33 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 06:02:43 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 06:09:09 p. m. Actualizacion de Puesto exitosa del empleado: 14823456
+06/07/2017 06:09:15 p. m. Actualizacion de Centro de Costos exitosa del empleado: 14823456
+06/07/2017 06:09:22 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 06:12:53 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 06:13:13 p. m. Actualizacion de Puesto exitosa del empleado: 14823456
+06/07/2017 06:13:17 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 14823456
+06/07/2017 06:13:25 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 06:18:27 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 06:18:36 p. m. Actualizacion de Centro de Costos exitosa del empleado: 14823456
+06/07/2017 06:18:40 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 14823456
+06/07/2017 06:18:46 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 06:23:45 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 06:24:27 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 06:25:24 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 06:25:53 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+06/07/2017 06:27:30 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+06/07/2017 06:27:42 p. m. Actualizacion de Puesto exitosa del empleado: 14823456
+06/07/2017 06:27:47 p. m. Actualizacion de Centro de Costos exitosa del empleado: 14823456
+06/07/2017 06:27:51 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 14823456
+06/07/2017 06:28:15 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 14823456
+07/07/2017 04:53:49 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+07/07/2017 04:58:02 p. m. Fallo la actualizacion de Puesto del empleado: 14823456
+07/07/2017 04:59:16 p. m. Error en la recuperacion de datos de QProcess del empleado: 14823456
+07/07/2017 04:59:55 p. m. Error en la recuperacion de datos de QProcess del empleado: 14823456
+07/07/2017 05:57:28 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+07/07/2017 05:58:50 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+07/07/2017 06:00:21 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 14823456
+07/07/2017 06:00:46 p. m. Rollback: El SM de la compañia 148 empleado 23456 no fue borrado
+07/07/2017 06:01:16 p. m. Recuperacion de datos de QProcess del empleado: 14823456 exitosa
+07/07/2017 06:01:16 p. m. Actualizacion de Sueldo exitosa del empleado: 14823456
+07/07/2017 06:01:16 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 14823456
+07/07/2017 06:02:17 p. m. Rollback: El SM de la compañia 148 empleado 23456 no fue borrado
+12/07/2017 11:23:10 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado.
+12/07/2017 11:23:11 a. m. Los datos de la tabla 'Empleados' se insertaron exitosamente
+12/07/2017 11:23:11 a. m. Los datos de la tabla 'Tel_Empleados' se insertaron exitosamente
+12/07/2017 11:23:11 a. m. Los datos de la tabla 'H_Personal' se insertaron exitosamente
+12/07/2017 11:23:11 a. m. El SDI de la tabla 'H_Sueldos' se inserto exitosamente
+12/07/2017 11:23:12 a. m. El SDN de la tabla 'H_Sueldos' se inserto exitosamente
+12/07/2017 11:23:12 a. m. El SM de la tabla 'H_Sueldos' se inserto exitosamente
+12/07/2017 11:23:12 a. m. Los datos de la tabla 'H_Laboral' se insertaron exitosamente
+12/07/2017 11:23:12 a. m. La Unidad de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+12/07/2017 11:23:12 a. m. El Centro de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+12/07/2017 11:23:12 a. m. Los datos de Kaizen se insertaron exitosamente
+12/07/2017 11:23:12 a. m. Se recuperan los datos de tabla Personal exitosamente
+12/07/2017 11:23:21 a. m. Se recuperan los datos de tabla Vacantes exitosamente
+12/07/2017 11:27:42 a. m. Se recuperan los datos de tabla PerVac exitosamente
+12/07/2017 11:28:37 a. m. Los datos de la tabla 'Personal' no fueron actualizados correctamente
+12/07/2017 11:30:01 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado.
+12/07/2017 11:30:04 a. m. Los datos de la tabla 'Empleados' se insertaron exitosamente
+12/07/2017 11:30:04 a. m. Los datos de la tabla 'Tel_Empleados' se insertaron exitosamente
+12/07/2017 11:30:04 a. m. Los datos de la tabla 'H_Personal' se insertaron exitosamente
+12/07/2017 11:30:04 a. m. El SDI de la tabla 'H_Sueldos' se inserto exitosamente
+12/07/2017 11:30:04 a. m. El SDN de la tabla 'H_Sueldos' se inserto exitosamente
+12/07/2017 11:30:04 a. m. El SM de la tabla 'H_Sueldos' se inserto exitosamente
+12/07/2017 11:30:05 a. m. Los datos de la tabla 'H_Laboral' se insertaron exitosamente
+12/07/2017 11:30:05 a. m. La Unidad de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+12/07/2017 11:30:05 a. m. El Centro de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+12/07/2017 11:30:14 a. m. Los datos de Kaizen se insertaron exitosamente
+12/07/2017 11:30:19 a. m. Se recuperan los datos de tabla Personal exitosamente
+12/07/2017 11:30:38 a. m. Se recuperan los datos de tabla Vacantes exitosamente
+12/07/2017 11:30:43 a. m. Se recuperan los datos de tabla PerVac exitosamente
+12/07/2017 11:30:51 a. m. Los datos de la tabla 'Personal' fueron actualizados correctamente
+12/07/2017 11:31:07 a. m. Los datos de la tabla 'Tb_Vacantes' fueron actualizados correctamente
+12/07/2017 11:31:39 a. m. Los datos de la tabla 'Tb_PerVac' fueron actualizados correctamente
+12/07/2017 11:32:30 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+24/07/2017 07:34:26 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 07:35:28 p. m. Actualizacion de Puesto exitosa del empleado: 1483029
+24/07/2017 07:36:38 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 07:36:54 p. m. Actualizacion de Puesto exitosa del empleado: 1483029
+24/07/2017 07:46:43 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 07:46:55 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+24/07/2017 07:48:25 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 07:49:40 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+24/07/2017 07:49:57 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 07:53:48 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+24/07/2017 07:54:03 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 07:56:47 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+24/07/2017 07:56:57 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 07:56:57 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+24/07/2017 07:57:14 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 08:02:56 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+24/07/2017 08:09:14 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+24/07/2017 08:09:33 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+25/07/2017 05:48:50 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+25/07/2017 05:49:55 p. m. Actualizacion de Puesto exitosa del empleado: 1483029
+25/07/2017 05:50:43 p. m. Actualizacion de Centro de Costos exitosa del empleado: 1483029
+25/07/2017 05:50:57 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 1483029
+25/07/2017 05:53:26 p. m. Actualizacion de Sueldo exitosa del empleado: 1483029
+25/07/2017 05:54:03 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 1483029
+25/07/2017 06:06:04 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+25/07/2017 06:06:44 p. m. Actualizacion de Puesto exitosa del empleado: 1483029
+25/07/2017 06:06:50 p. m. Actualizacion de Centro de Costos exitosa del empleado: 1483029
+25/07/2017 06:06:55 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 1483029
+25/07/2017 06:07:04 p. m. Actualizacion de Sueldo exitosa del empleado: 1483029
+25/07/2017 06:09:13 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 1483029
+25/07/2017 06:19:09 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+25/07/2017 06:19:16 p. m. Actualizacion de Puesto exitosa del empleado: 1483029
+25/07/2017 06:23:08 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+25/07/2017 06:23:37 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+25/07/2017 06:24:29 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+25/07/2017 06:32:38 p. m. Fallo la actualizacion de Puesto del empleado: 1483029
+25/07/2017 06:33:10 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+25/07/2017 06:33:26 p. m. Actualizacion de Puesto exitosa del empleado: 1483029
+25/07/2017 06:33:42 p. m. Actualizacion de Centro de Costos exitosa del empleado: 1483029
+25/07/2017 06:33:49 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 1483029
+25/07/2017 06:34:13 p. m. Actualizacion de Sueldo exitosa del empleado: 1483029
+25/07/2017 06:34:55 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 1483029
+25/07/2017 06:51:40 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+25/07/2017 06:51:49 p. m. Actualizacion de Puesto exitosa del empleado: 1483029
+25/07/2017 06:51:53 p. m. Actualizacion de Centro de Costos exitosa del empleado: 1483029
+25/07/2017 06:51:58 p. m. Actualizacion de Unidad de Costos exitosa del empleado: 1483029
+25/07/2017 06:52:03 p. m. Actualizacion de Sueldo exitosa del empleado: 1483029
+25/07/2017 06:53:47 p. m. Error en la actualización de Estatus Proceso Movimiento del empleado: 1483029
+26/07/2017 01:08:45 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+26/07/2017 01:30:15 p. m. Recuperacion de datos de QProcess del empleado: 1483029 exitosa
+26/07/2017 01:32:36 p. m. El estatus del empleado 1483029 se actualizo correctamente
+26/07/2017 01:33:16 p. m. Actualizacion de Estatus Proceso Movimiento exitosa del empleado: 1483029
+02/08/2017 10:07:31 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:08:24 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:12:01 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:21:40 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:24:21 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:25:56 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:26:41 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:27:48 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:28:29 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:28:58 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:30:47 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:34:54 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:35:27 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:53:38 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:54:02 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:54:13 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:55:09 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:55:37 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 10:56:50 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:04:25 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:05:36 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:06:21 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:06:58 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:08:14 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:09:23 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:10:21 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:11:59 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:21:33 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:34:39 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:35:51 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:38:13 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:39:12 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 11:41:33 a. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 12:13:56 p. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 12:14:58 p. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 12:20:10 p. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+02/08/2017 12:20:49 p. m. Recuperacion de datos de QProcess del empleado: 1481699 exitosa
+03/08/2017 10:08:08 a. m. Error en la recuperacion de datos de QProcess en el proceso de Alta de Empleado.
+03/08/2017 10:14:04 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado.
+03/08/2017 10:14:04 a. m. Los datos de la tabla 'Empleados' se insertaron exitosamente
+03/08/2017 10:14:04 a. m. Los datos de la tabla 'Tel_Empleados' se insertaron exitosamente
+03/08/2017 10:14:04 a. m. Los datos de la tabla 'H_Personal' se insertaron exitosamente
+03/08/2017 10:14:04 a. m. El SDI de la tabla 'H_Sueldos' se inserto exitosamente
+03/08/2017 10:14:04 a. m. El SDN de la tabla 'H_Sueldos' se inserto exitosamente
+03/08/2017 10:14:04 a. m. El SM de la tabla 'H_Sueldos' se inserto exitosamente
+03/08/2017 10:14:04 a. m. Los datos de la tabla 'H_Laboral' se insertaron exitosamente
+03/08/2017 10:14:05 a. m. La Unidad de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+03/08/2017 10:14:05 a. m. El Centro de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+03/08/2017 10:14:05 a. m. Los datos de Kaizen se insertaron exitosamente
+03/08/2017 10:14:05 a. m. Se recuperan los datos de tabla Personal exitosamente
+03/08/2017 10:14:05 a. m. Se recuperan los datos de tabla Vacantes exitosamente
+03/08/2017 10:14:05 a. m. Se recuperan los datos de tabla PerVac exitosamente
+03/08/2017 10:14:05 a. m. Los datos de la tabla 'Personal' fueron actualizados correctamente
+03/08/2017 10:14:05 a. m. Los datos de la tabla 'Tb_Vacantes' fueron actualizados correctamente
+03/08/2017 10:14:05 a. m. Los datos de la tabla 'Tb_PerVac' fueron actualizados correctamente
+03/08/2017 10:14:05 a. m. El campo 'Estatus Proceso' fue actualizado correctamente
+17/08/2017 10:09:07 a. m. Recuperacion de datos de QProcess exitosamente en el proceso de Alta de Empleado.
+17/08/2017 10:09:13 a. m. Los datos de la tabla 'Empleados' se insertaron exitosamente
+17/08/2017 10:09:13 a. m. Los datos de la tabla 'Tel_Empleados' se insertaron exitosamente
+17/08/2017 10:09:13 a. m. Los datos de la tabla 'H_Personal' se insertaron exitosamente
+17/08/2017 10:09:14 a. m. El SDI de la tabla 'H_Sueldos' se inserto exitosamente
+17/08/2017 10:09:14 a. m. El SDN de la tabla 'H_Sueldos' se inserto exitosamente
+17/08/2017 10:09:14 a. m. El SM de la tabla 'H_Sueldos' se inserto exitosamente
+17/08/2017 10:09:19 a. m. Los datos de la tabla 'H_Laboral' se insertaron exitosamente
+17/08/2017 10:09:19 a. m. La Unidad de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+17/08/2017 10:09:20 a. m. El Centro de Costos de la tabla 'H_Valores_X_Emp' se inserto exitosamente
+17/08/2017 10:09:28 a. m. Los datos de Kaizen se insertaron exitosamente
+17/08/2017 10:09:35 a. m. Se recuperan los datos de tabla Personal exitosamente
+17/08/2017 10:09:53 a. m. Se recuperan los datos de tabla Vacantes exitosamente
+17/08/2017 10:09:58 a. m. Se recuperan los datos de tabla PerVac exitosamente
+17/08/2017 10:10:14 a. m. Los datos de la tabla 'Personal' fueron actualizados correctamente
+17/08/2017 10:10:30 a. m. Los datos de la tabla 'Tb_Vacantes' fueron actualizados correctamente
+17/08/2017 10:10:42 a. m. Los datos de la tabla 'Tb_PerVac' fueron actualizados correctamente
+17/08/2017 10:11:01 a. m. El campo 'Estatus Proceso' fue actualizado correctamente

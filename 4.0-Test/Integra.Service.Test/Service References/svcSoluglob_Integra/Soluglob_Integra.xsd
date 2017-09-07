@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Integra.Services.Entities.QProcess" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Integra.Services.Entities.QProcess" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:58142/Soluglob_Integra.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Empleado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Accion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApellidoMat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApellidoPat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Banco" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Banco_Alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLABE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CLABE_Alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CURP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cartilla" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Centro_de_Costos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ciudad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Colonia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Compania" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Correo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cta_Cheques" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cta_Cheques_Alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Departamento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dependencia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Destajos" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Duracion" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Elector" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntidadLaboral" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EstadoCivil" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Estado_Civil" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Estado_Nac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Estatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Expediente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Factor" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaMod" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaNacimiento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Antiguedad1" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Antiguedad2" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Antiguedad3" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Baja" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Ingreso" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Vento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Foto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fuente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Grupo_Pago" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Horarios_Estatus" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_Per" type="xs:int" />
+      <xs:element minOccurs="0" name="Ip" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Licencia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Localidad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lugar_Nac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mac_Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Motivo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NSS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nacionalidad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NivelEstudio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre_Madre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre_Padre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nomi_Camb" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="NumCreditoInfonavit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Num_Checador" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Numero_Ext" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Numero_Int" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Numero_Nomina" type="xs:int" />
+      <xs:element minOccurs="0" name="Numero_Nominas" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Origen" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Pais" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaisNacimiento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Path_Firma" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Poblacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Puesto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RFC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Region" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sec_H_Laboral" type="xs:short" />
+      <xs:element minOccurs="0" name="Sec_Tel_Empleados" type="xs:short" />
+      <xs:element minOccurs="0" name="Sector" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Sindicalizado" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Sucursal" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sucursal_Alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sueldo" type="xs:double" />
+      <xs:element minOccurs="0" name="Tarjeta" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Tarjeta_VGasolina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tarjeta_Vales" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tarjeta_Vales_Ant" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" type="xs:short" />
+      <xs:element minOccurs="0" name="TipoSangre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo_Contrato" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Tipo_De_Operacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo_Empleado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo_Pago" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Tipo_Pago_Infonavit" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Tipo_Salario" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Tipo_Sueldo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tratamiento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Turno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Unidad_de_Costos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User_Mod" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Usuario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Valor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="numEmpleado" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Empleado" nillable="true" type="tns:Empleado" />
+  <xs:complexType name="QProcessSoluglob">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellidos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AplicaBono" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Bono" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CURP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Calle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Caso_Especial" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CeCo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Centro_costos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ciudad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Colonia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Departamento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Depto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Desc_Vacante" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dias_semana" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Domingo_Entrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Domingo_Salida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Edad" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Empresa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Estatus" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Estatus_Edicion" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Estatus_Vacante" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="FecMod" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FecReg" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Alta" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Alta_Imss" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Baja" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Baja_sistema" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Modificacion" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fecha_Reingreso" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Fechas_registro" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Gerencia" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Horario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Huella_Bin1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Huella_Bin2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Huella_Bin3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Huella_Bin4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Huella_Img1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_Per" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_Per_Vacante" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_Vac" type="xs:int" />
+      <xs:element minOccurs="0" name="Imss" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Jefe" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Jueves_Entrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Jueves_Salida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lunes_Entrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lunes_Salida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Martes_Entrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Martes_Salida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Miercoles_Entrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Miercoles_Salida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MotivoBaja" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Municipio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mz" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NSS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nomi_Camb" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Num_Checador" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Numero" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Numero_Nomina" type="xs:int" />
+      <xs:element minOccurs="0" name="Numero_Nominas" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Prioridad" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Puesto" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Registrado" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Remuneracion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Responsable_Bono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sabado_Entrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sabado_Salida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Segmento" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Sueldo" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Tel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Transicion" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="UCos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ubicacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User_Mod" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Verificacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Viernes_Entrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Viernes_Salida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha_ingresos" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="msrepl_tran_version" type="ser:guid" />
+      <xs:element minOccurs="0" name="pagos_hextras" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unidad_costos" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QProcessSoluglob" nillable="true" type="tns:QProcessSoluglob" />
+</xs:schema>

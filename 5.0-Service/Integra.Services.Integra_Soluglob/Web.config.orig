@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <connectionStrings>
+
+    <!--Conexion Produccion-->
+    <!--<add name="Integra.Rhin.Data" connectionString="Data Source=192.168.14.13;Initial Catalog=rhin_corp_gruma;User ID=team; Password=t34m2016$;;" providerName="System.Data.SqlClient" />
+   <add name="Integra.Seguridad.Data" connectionString="Data Source=192.168.14.13;Initial Catalog=seguridad_gruma;User ID=team; Password=t34m2016$;" providerName="System.Data.SqlClient" />
+   <add name="Integra.Team.Data" connectionString="Server=192.168.14.13; Port=3306; Database=sku_online; Uid=sku; Pwd=Qks1osNBoA;" providerName="MySql.Data.MySqlClient" />-->
+
+    <!--Conexion Prueba -->
+    <!--<add name="Integra.Rhin.Data" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=rhin_corp_gruma_pru; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />
+   <add name="Integra.Seguridad.Data" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=seguridad_gruma_pru; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />
+   <add name="Integra.Team.Data" connectionString="Server=192.168.14.13; Port=3306; Database=sku_online; Uid=sku; Pwd=Qks1osNBoA;" providerName="MySql.Data.MySqlClient" />-->
+
+    <!--Conexion Desarrollo -->
+    <add name="Integra.Services.Data.Kaizen" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=kaizen_prod; User ID=sadesarrollo;Password=admin1% " providerName="System.Data.SqlClient"  />
+    <add name="Integra.Services.Data.QProcess" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=IntegraPruebas; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />
+<<<<<<< local
+    <add name="Integra.Services.Data.SoluglobChecador" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=Checador; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />
+    <add name="Integra.Services.Data.SoluglobAdministrativo" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=Administrativo; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />
+=======
+    <add name="Integra.Services.Data.SoluglobAdministrativo" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=Administrativo; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />
+    <add name="Integra.Services.Data.SoluglobChecador" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=Checador; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />
+    <!--<add name="Integra.Services.Data.QProcess" connectionString="Data Source=wilsoft2.cxbq2sbm7bhf.us-west-2.rds.amazonaws.com;Initial Catalog=IntegraPruebas; User ID=Integra;Password=4G4Db4tTD5NdLmnK" providerName="System.Data.SqlClient" />-->
+    <!--<add name="Integra.Services.Data" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=kaizen_prod; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />-->
+    <!--<add name="Integra.Seguridad.Data" connectionString="Data Source=DESINTEGRA\TESTDESA14;Initial Catalog=seguridad_gruma_pru; User ID=sadesarrollo;Password=admin1%" providerName="System.Data.SqlClient" />-->
+>>>>>>> other
+    <add name="Integra.Team.Data" connectionString="Server=192.168.14.13; Port=3306; Database=sku_online; Uid=sku; Pwd=Qks1osNBoA;" providerName="MySql.Data.MySqlClient" />
+
+  </connectionStrings>
+
+  <appSettings>
+    <add key="aspnet:UseTaskFriendlySynchronizationContext" value="true" />
+  </appSettings>
+
+  <system.web>
+    <compilation debug="true" targetFramework="4.5" />
+    <httpRuntime targetFramework="4.5" maxRequestLength="10240" executionTimeout="600"/>
+  </system.web>
+
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="basicBinding" maxBufferSize="2147483647" maxBufferPoolSize="2147483647" maxReceivedMessageSize="2147483647" openTimeout="00:10:00" closeTimeout="00:10:00" sendTimeout="10:10:00" receiveTimeout="00:10:00">
+          <readerQuotas maxDepth="2147483647" maxStringContentLength="2147483647" maxArrayLength="2147483647" maxBytesPerRead="2147483647" maxNameTableCharCount="2147483647" />
+          <security mode="None" />
+        </binding>
+      </basicHttpBinding>
+      <webHttpBinding>
+        <binding name ="webBinding" maxBufferSize="2147483647" maxReceivedMessageSize="2147483647" transferMode="Streamed" openTimeout="00:10:00" closeTimeout="00:10:00" sendTimeout="10:10:00" receiveTimeout="00:10:00">
+          <readerQuotas maxDepth="2147483647" maxStringContentLength="2147483647" maxArrayLength="2147483647" maxBytesPerRead="2147483647" maxNameTableCharCount="2147483647" />
+        </binding>
+      </webHttpBinding>
+      <wsHttpBinding>
+        <binding name ="wsBinding" maxReceivedMessageSize="2147483647" openTimeout="00:10:00" closeTimeout="00:10:00" sendTimeout="10:10:00" receiveTimeout="00:10:00">
+          <readerQuotas maxDepth="2147483647" maxStringContentLength="2147483647" maxArrayLength="2147483647" maxBytesPerRead="2147483647" maxNameTableCharCount="2147483647" />
+        </binding>
+      </wsHttpBinding>
+    </bindings>
+    <services>
+      <service name="Integra.Services.Integra_Soluglob.Integra_Soluglob" behaviorConfiguration="svcIntegraSoluglobBehavior">
+        <endpoint address="" binding="wsHttpBinding" contract="Integra.Services.Integra_Soluglob.IIntegra_Soluglob">      
+          <identity>
+            <dns value="localhost"/>
+          </identity>
+        </endpoint>          
+      </service>
+    </services>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="svcIntegraSoluglobBehavior">
+          <serviceMetadata httpGetEnabled="true" httpsGetEnabled="true" />
+          <serviceDebug includeExceptionDetailInFaults="true"/>
+          <bufferedReceive maxPendingMessagesPerChannel="2147483647" />
+        </behavior>
+      </serviceBehaviors>     
+    </behaviors>
+   <protocolMapping>
+        <add binding="wsHttpBinding" scheme="https" />
+    </protocolMapping>    
+  <serviceHostingEnvironment aspNetCompatibilityEnabled="true" multipleSiteBindingsEnabled="true" />
+  </system.serviceModel>  
+
+  <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true"/>
+    <!--
+        Para examinar el directorio raíz de la aplicación web durante la depuración, establezca el valor siguiente en true.
+        Establézcalo en false antes de la implementación para evitar revelar información sobre la carpeta de aplicación web.
+      -->
+    <directoryBrowse enabled="true"/>
+  </system.webServer>
+
+</configuration>

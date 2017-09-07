@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Integra.Services.Soluglob_Integra.Soluglob_Integra" CodeBehind="Soluglob_Integra.svc.cs" %>

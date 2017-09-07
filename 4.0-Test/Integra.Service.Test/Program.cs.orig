@@ -1,0 +1,358 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Entities = Integra.Services.Entities;
+
+namespace Integra.Service.Test.Soluglob_Integra
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {           
+            Test.svcSoluglob_Integra.Soluglob_IntegraClient svcSolIn = new svcSoluglob_Integra.Soluglob_IntegraClient();
+            #region Kaizen        
+            //Entities.Kaizen.Empleados.Empleado empleado = null;
+            ////List<Entities.Empleados.Empleado> empleadoCollection = null;
+
+            ////////////////////////////////////////////////////////////////////////////////
+            ////Getall
+            ////////////////////////////////////////////////////////////////////////////////
+            ////empleadoCollection = svcSolIn.GetAllEmpleado();           
+
+            //#region Insert Empleado Kaizen
+            ////////////////////////////////////////////////////////////////////////////////
+            ////Insert 
+            ////////////////////////////////////////////////////////////////////////////////
+            //empleado = new Services.Entities.Kaizen.Empleados.Empleado();
+            //empleado.compania = "123";
+            //empleado.numEmpleado = "123";
+            //empleado.apellido_paterno = "CARAPIA";
+            //empleado.apellido_materno = "GAYOSSO";
+            //empleado.nombres = "TAPON";
+            //empleado.nombre = empleado.apellido_paterno + " " + empleado.apellido_materno + " " + empleado.nombres;
+            //empleado.path_foto = "";
+            //empleado.rfc = "CAGG910526JI2";
+            //empleado.curp = "";
+            //empleado.elector = "";
+            //empleado.cartilla = "";
+            //empleado.licencia = "";
+            //empleado.numero_imss = "12345678901";
+            //empleado.tipo_sangre = "O+";
+            //empleado.sexo = 2;
+            //empleado.tratamiento = "";
+            //empleado.nivel_estudio = "LIC";
+            //empleado.fecha_nac = DateTime.Parse("1991-05-26");
+            //empleado.lugar_nac = "Marte";
+            //empleado.pais_nac = "Xochimilco";
+            //empleado.estado_nac = "Mex";
+            //empleado.nombre_padre = "";
+            //empleado.nombre_madre = "";
+            //empleado.origen = 0;
+            //empleado.nacionalidad = "MEX";
+            //empleado.tipo_pago = 1;
+            //empleado.banco = "BBVAB";
+            //empleado.sucursal = "";
+            //empleado.cta_cheques = "1234567890";
+            //empleado.fuente = "";
+            //empleado.tarjeta = 0;
+            //empleado.destajos = 0;
+            //empleado.turno = "";
+            //empleado.expediente = "";
+            //empleado.infonavit = "";
+            //empleado.tipo_pago_infonavit = -9;
+            //empleado.factor = Convert.ToDecimal(0.00123);
+            //empleado.clabe = "";
+            //empleado.banco_alt = "";
+            //empleado.sucursal_alt = "";
+            //empleado.cta_cheques_alt = "";
+            //empleado.clabe_alt = "";
+            //empleado.tarjeta_vales = "";
+            //empleado.path_firma = "";
+            //empleado.estatus = "01";
+            //empleado.estado_civil = 1;
+            //empleado.ip = "";
+            //empleado.mac_address = "";
+            //empleado.usuario = "PruebaWS";
+            //empleado.tarjeta_vales_ant = "";
+            //empleado.Correo = "";
+            //empleado.Tarjeta_VGasolina = "";
+            //empleado.entidadLaboral = "MEX";
+            //#endregion
+
+            //string empleadoResult = svcSolIn.InsertEmpleado(empleado);
+
+            ////////////////////////////////////////////////////////////////////////////////
+            ////GetOne
+            ////////////////////////////////////////////////////////////////////////////////
+            //empleado = svcSolIn.GetOneEmpleado("123", "123");
+
+            ////////////////////////////////////////////////////////////////////////////////
+            ////Update
+            ////////////////////////////////////////////////////////////////////////////////
+            //empleado = new Services.Entities.Kaizen.Empleados.Empleado();
+            //empleado.compania = "123";
+            //empleado.numEmpleado = "123";
+            //empleado.apellido_paterno = "CARAPIA";
+            //empleado.apellido_materno = "GAYOSSO";
+            //empleado.nombres = "GUILLERMO";
+            //empleado.nombre = empleado.apellido_paterno + " " + empleado.apellido_materno + " " + empleado.nombres;
+            //empleado.path_foto = "";
+            //empleado.rfc = "CAGG910526JI2";
+            //empleado.curp = "";
+            //empleado.elector = "";
+            //empleado.cartilla = "";
+            //empleado.licencia = "";
+            //empleado.numero_imss = "12345678901";
+            //empleado.tipo_sangre = "O+";
+            //empleado.sexo = 2;
+            //empleado.tratamiento = "";
+            //empleado.nivel_estudio = "LIC";
+            //empleado.fecha_nac = DateTime.Parse("1991-05-26");
+            //empleado.lugar_nac = "Marte";
+            //empleado.pais_nac = "Xochimilco";
+            //empleado.estado_nac = "Mex";
+            //empleado.nombre_padre = "";
+            //empleado.nombre_madre = "";
+            //empleado.origen = 0;
+            //empleado.nacionalidad = "MEX";
+            //empleado.tipo_pago = 1;
+            //empleado.banco = "BBVAB";
+            //empleado.sucursal = "";
+            //empleado.cta_cheques = "1234567890";
+            //empleado.fuente = "";
+            //empleado.tarjeta = 0;
+            //empleado.destajos = 0;
+            //empleado.turno = "";
+            //empleado.expediente = "";
+            //empleado.infonavit = "";
+            //empleado.tipo_pago_infonavit = -9;
+            //empleado.factor = Convert.ToDecimal(0.00123);
+            //empleado.clabe = "";
+            //empleado.banco_alt = "";
+            //empleado.sucursal_alt = "";
+            //empleado.cta_cheques_alt = "";
+            //empleado.clabe_alt = "";
+            //empleado.tarjeta_vales = "";
+            //empleado.path_firma = "";
+            //empleado.estatus = "01";
+            //empleado.estado_civil = 1;
+            //empleado.ip = "";
+            //empleado.mac_address = "";
+            //empleado.usuario = "PruebaWS";
+            //empleado.tarjeta_vales_ant = "";
+            //empleado.Correo = "";
+            //empleado.Tarjeta_VGasolina = "";
+            //empleado.entidadLaboral = "MEX";
+
+            //string empleadoResultUpdate = svcSolIn.UpdateEmpleado(empleado);
+
+            //empleado = svcSolIn.GetOneEmpleado("123", "123");
+
+            ////////////////////////////////////////////////////////////////////////////////
+            ////Delete
+            ////////////////////////////////////////////////////////////////////////////////
+            //svcSolIn.DeleteEmpleado("123", "123");
+
+            //empleado = svcSolIn.GetOneEmpleado("123", "123");
+            #endregion
+
+            #region QProcess
+            //Entities.QProcess.Empleado empleadoQP = null;
+            ////List<Entities.Empleados.Empleado> empleadoCollection = null;
+
+            //#region Insert Empleado QProcess
+
+            //empleadoQP = new Services.Entities.QProcess.Empleado();
+            //empleadoQP.Compania = "123";
+            //empleadoQP.numEmpleado = "123";
+            //empleadoQP.ApellidoPat = "CARAPIA";
+            //empleadoQP.ApellidoMat = "GAYOSSO";
+            //empleadoQP.Nombres = "TAPON";
+            //empleadoQP.Nombre = empleadoQP.ApellidoPat + " " + empleadoQP.ApellidoMat + " " + empleadoQP.Nombres;
+            //empleadoQP.Foto = "";
+            //empleadoQP.RFC = "CAGG910526JI2";
+            //empleadoQP.CURP = "";
+            //empleadoQP.Elector = "";
+            //empleadoQP.Cartilla = "";
+            //empleadoQP.Licencia = "";
+            //empleadoQP.NSS = "12345678901";
+            //empleadoQP.TipoSangre = "O+";
+            //empleadoQP.Sexo = 2;
+            //empleadoQP.Tratamiento = "";
+            //empleadoQP.NivelEstudio = "LIC";
+            //empleadoQP.FechaNacimiento = DateTime.Parse("1991-05-26");
+            //empleadoQP.Lugar_Nac = "Marte";
+            //empleadoQP.PaisNacimiento = "Xochimilco";
+            //empleadoQP.Estado_Nac = "Mex";
+            //empleadoQP.Nombre_Padre = "";
+            //empleadoQP.Nombre_Madre = "";
+            //empleadoQP.Origen = 0;
+            //empleadoQP.Nacionalidad = "MEX";
+            //empleadoQP.Tipo_Pago = 1;
+            //empleadoQP.Banco = "BBVAB";
+            //empleadoQP.Sucursal = "";
+            //empleadoQP.Cta_Cheques = "1234567890";
+            //empleadoQP.Fuente = "";
+            //empleadoQP.Tarjeta = 0;
+            //empleadoQP.Destajos = 0;
+            //empleadoQP.Turno = "";
+            //empleadoQP.Expediente = "";
+            //empleadoQP.NumCreditoInfonavit = "";
+            //empleadoQP.Tipo_Pago_Infonavit = -9;
+            //empleadoQP.Factor = Convert.ToDecimal(0.00123);
+            //empleadoQP.CLABE = "";
+            //empleadoQP.Banco_Alt = "";
+            //empleadoQP.Sucursal_Alt = "";
+            //empleadoQP.Cta_Cheques_Alt = "";
+            //empleadoQP.CLABE_Alt = "";
+            //empleadoQP.Tarjeta_Vales = "";
+            //empleadoQP.Path_Firma = "";
+            //empleadoQP.Estatus = "01";
+            //empleadoQP.EstadoCivil = 1;
+            //empleadoQP.Ip = "";
+            //empleadoQP.Mac_Address = "";
+            //empleadoQP.usuario = "PruebaWS";
+            //empleadoQP.Tarjeta_Vales_Ant = "";
+            //empleadoQP.Correo = "";
+            //empleadoQP.Tarjeta_VGasolina = "";
+            //empleadoQP.EntidadLaboral = "MEX";
+            //#endregion
+
+            //string empleadoResult = svcSolIn.InsertEmpleado(empleadoQP);
+            //empleadoQP.Personal_Administrativo_Id_Per = 250000011;
+            //empleadoQP.Personal_Administrativo_Num_Checador = 4545;
+            //empleadoQP.Personal_Administrativo_Nomi_Camb = 12;
+            //empleadoQP.Personal_Administrativo_FecReg = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Personal_Administrativo_Nombre = "test";
+            //empleadoQP.Personal_Administrativo_Sexo = 1;
+            //empleadoQP.Personal_Administrativo_Edad = 28;
+            //empleadoQP.Personal_Administrativo_NSS = "2222222222";
+            //empleadoQP.Personal_Administrativo_CURP = "CURPDEMO1301VAL";
+            //empleadoQP.Personal_Administrativo_Calle = "PIRUETAS";
+            //empleadoQP.Personal_Administrativo_Numero = "121112";
+            //empleadoQP.Personal_Administrativo_Mz = "ss";
+
+            //empleadoQP.Personal_Administrativo_Lt = "sss";
+            //empleadoQP.Personal_Administrativo_Colonia = "SAN FRANCISCO";
+            //empleadoQP.Personal_Administrativo_Municipio = "NAUCALPAN DE JUÁREZ";
+            //empleadoQP.Personal_Administrativo_Ciudad = "tenayuca";
+            //empleadoQP.Personal_Administrativo_Estado = "ESTADO DE MÉXICO";
+            //empleadoQP.Personal_Administrativo_CP = "54150";
+            //empleadoQP.Personal_Administrativo_Tel = "5511741956";
+            //empleadoQP.Personal_Administrativo_Cel = "7711741956";
+            //empleadoQP.Personal_Administrativo_Email = "JSANCHEZ06@gmail.com";
+            //empleadoQP.Personal_Administrativo_Sueldo = 4000;
+            //empleadoQP.Personal_Administrativo_Jefe = 1;
+            //empleadoQP.Personal_Administrativo_Horario = "test";
+            //empleadoQP.Personal_Administrativo_Estatus = 1;
+            //empleadoQP.Personal_Administrativo_User_Mod = 1;
+            //empleadoQP.Personal_Administrativo_FecMod = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Personal_Administrativo_AplicaBono = 1;
+
+            //empleadoQP.PerVac_Id_Per = 250000011;
+            //empleadoQP.PerVac_Id_Vac = 250000011;
+
+            //empleadoQP.Vacantes_Id_Vac = 250000011;
+            //empleadoQP.Vacantes_Id_Per = 250000011;
+            //empleadoQP.Vacantes_Desc_Vacante = "ASESOR MEDICO";
+            //empleadoQP.Vacantes_CeCo = 0;
+            //empleadoQP.Vacantes_UCos = "";
+            //empleadoQP.Vacantes_Ubicacion ="";
+            //empleadoQP.Vacantes_Estatus_Vacante = 1;
+            //empleadoQP.Vacantes_Segmento = 0;
+            //empleadoQP.Vacantes_Gerencia = 0;
+            //empleadoQP.Vacantes_Puesto = 6;
+            //empleadoQP.Vacantes_Verificacion = "";
+            //empleadoQP.Vacantes_Depto = "";
+            //empleadoQP.Vacantes_User_Mod = 0;
+            //empleadoQP.Vacantes_FecMod = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Vacantes_Transicion = 0;
+            //empleadoQP.Vacantes_Prioridad = 0;
+
+
+
+            //empleadoQP.Horarios_Numero_Nomina = 996;
+            //empleadoQP.Horarios_Lunes_Entrada = "09:00:00";
+            //empleadoQP.Horarios_Lunes_Salida = "19:00:00";
+            //empleadoQP.Horarios_Martes_Entrada = "09:00:00";
+            //empleadoQP.Horarios_Martes_Salida = "19:00:00";
+            //empleadoQP.Horarios_Miercoles_Entrada = "09:00:00";
+            //empleadoQP.Horarios_Miercoles_Salida = "19:00:00";
+            //empleadoQP.Horarios_Jueves_Entrada = "09:00:00";
+            //empleadoQP.Horarios_Jueves_Salida = "19:00:00";
+            //empleadoQP.Horarios_Viernes_Entrada = "09:00:00";
+            //empleadoQP.Horarios_Viernes_Salida = "19:00:00";
+            //empleadoQP.Horarios_Sabado_Entrada = "09:00:00";
+            //empleadoQP.Horarios_Sabado_Salida = "19:00:00";
+            //empleadoQP.Horarios_Domingo_Entrada = "09:00:00";
+            //empleadoQP.Horarios_Domingo_Salida = "19:00:00";
+            //empleadoQP.Horarios_Fecha_Modificacion =  "2017/02/14";
+            //empleadoQP.Horarios_msrepl_tran_version = Guid.Parse("8C75354D-577C-478C-A1A2-B9B1C1319BCD");
+            //empleadoQP.Horarios_Estatus = 1;
+
+            //empleadoQP.Usuarios_Numero_Nomina = 996;
+            //empleadoQP.Usuarios_Nombres =  "TEST" ;
+            //empleadoQP.Usuarios_Apellidos =  "TEST" ;
+            //empleadoQP.Usuarios_Puesto =  "TEST" ;
+            //empleadoQP.Usuarios_Departamento =  "TEST" ;
+            //empleadoQP.Usuarios_Telefono =  "7711741956" ;
+            //empleadoQP.Usuarios_Huella_Bin1 = null;
+            //empleadoQP.Usuarios_Huella_Img1 = null;
+            //empleadoQP.Usuarios_Huella_Bin2 = null;
+            //empleadoQP.Usuarios_Huella_Bin3 = null;
+            //empleadoQP.Usuarios_Huella_Bin4 = null;
+            //empleadoQP.Usuarios_Estatus =  true ;
+            //empleadoQP.Usuarios_Fecha_Alta = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_Fecha_Baja = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_Empresa =  "TEST" ;
+            //empleadoQP.Usuarios_Ubicacion =  "TEST" ;
+            //empleadoQP.Usuarios_MotivoBaja =  "TEST" ;
+            //empleadoQP.Usuarios_Caso_Especial = true; 
+            //empleadoQP.Usuarios_msrepl_tran_version = Guid.Parse("8C75354D-577C-478C-A1A2-B9B1C1319BCD");
+            //empleadoQP.Usuarios_Registrado =  1;
+            //empleadoQP.Usuarios_Imss =  "dd" ;
+            //empleadoQP.Usuarios_Dias_semana =  7 ;
+            //empleadoQP.Usuarios_fecha_ingresos = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_pagos_hextras =  "" ;
+            //empleadoQP.Usuarios_Fechas_registro = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_unidad_costos =  "" ;
+            //empleadoQP.Usuarios_Fecha_Reingreso = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_Centro_costos =  "" ;
+            //empleadoQP.Usuarios_Numero_Nominas =  380 ;
+            //empleadoQP.Usuarios_Remuneracion =  null ;
+            //empleadoQP.Usuarios_Fecha_Alta_Imss = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_Fecha_Baja_sistema = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_Estatus_Edicion =  1 ;
+            //empleadoQP.Usuarios_Fecha_Modificacion = Convert.ToDateTime("2017/02/14");
+            //empleadoQP.Usuarios_Bono =  true ;
+            //empleadoQP.Usuarios_Responsable_Bono = "TEST";
+
+            //bool empleadoResult = svcSolIn.InsertEmpleadoSG(empleadoQP);
+
+            #endregion  Insert Empleado QProcess Nuevo
+
+            #region Get One Empleado
+<<<<<<< local
+            //Entities.QProcess.QProcessSoluglob empleadoSG = null;
+            //empleadoSG = svcSolIn.GetOneEmpleadoSG(71);
+=======
+            int Numero_Nomina = svcSolIn.GetOneEmpleadoSG(71);
+>>>>>>> other
+            #endregion Get One Empleado
+
+            //#endregion
+
+            //#endregion
+
+            #region Web Service Integra-Soluglob
+
+
+
+            #endregion
+        }
+    }
+}
+
+

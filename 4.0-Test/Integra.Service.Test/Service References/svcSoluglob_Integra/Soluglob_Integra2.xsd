@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Integra.Services.Entities.Kaizen.Empleados" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Integra.Services.Entities.Kaizen.Empleados" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Empleado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Correo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tarjeta_VGasolina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="apellido_materno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="apellido_paterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="banco" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="banco_alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cartilla" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clabe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="clabe_alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="compania" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cta_cheques" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cta_cheques_alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="curp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="destajos" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="elector" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="entidadLaboral" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="estado_civil" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="estado_nac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="estatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="expediente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="factor" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="fecha_nac" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="fuente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="infonavit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ip" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="licencia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lugar_nac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mac_address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nacionalidad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nivel_estudio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre_madre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre_padre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nombres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="numEmpleado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="numero_imss" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="origen" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="pais_nac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="path_firma" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="path_foto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="rfc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sexo" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="sucursal" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sucursal_alt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tarjeta" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="tarjeta_vales" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tarjeta_vales_ant" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tipo_pago" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="tipo_pago_infonavit" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="tipo_sangre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tratamiento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="turno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="usuario" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Empleado" nillable="true" type="tns:Empleado" />
+  <xs:complexType name="ArrayOfEmpleado">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Empleado" nillable="true" type="tns:Empleado" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEmpleado" nillable="true" type="tns:ArrayOfEmpleado" />
+</xs:schema>

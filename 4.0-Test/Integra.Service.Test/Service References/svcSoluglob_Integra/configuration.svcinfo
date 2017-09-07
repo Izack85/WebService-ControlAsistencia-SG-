@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BasicHttpBinding_ISoluglob_Integra&quot; /&gt;" bindingType="basicHttpBinding" name="BasicHttpBinding_ISoluglob_Integra" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:58142/Soluglob_Integra.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_ISoluglob_Integra&quot; contract=&quot;svcSoluglob_Integra.ISoluglob_Integra&quot; name=&quot;BasicHttpBinding_ISoluglob_Integra&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:58142/Soluglob_Integra.svc&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_ISoluglob_Integra&quot; contract=&quot;svcSoluglob_Integra.ISoluglob_Integra&quot; name=&quot;BasicHttpBinding_ISoluglob_Integra&quot; /&gt;" contractName="svcSoluglob_Integra.ISoluglob_Integra" name="BasicHttpBinding_ISoluglob_Integra" />
+  </endpoints>
+</configurationSnapshot>

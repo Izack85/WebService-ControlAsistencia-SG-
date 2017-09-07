@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a555c1a6-795a-4723-ba89-9f57a5d22427" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58142/Soluglob_Integra.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Soluglob_Integra1.xsd" MetadataType="Schema" ID="78d87758-eeb4-44d5-b089-a617e4448f8f" SourceId="1" SourceUrl="http://localhost:58142/Soluglob_Integra.svc?xsd=xsd1" />
+    <MetadataFile FileName="Soluglob_Integra.wsdl" MetadataType="Wsdl" ID="cdecb343-f910-47b3-bf31-ba70f8573f78" SourceId="1" SourceUrl="http://localhost:58142/Soluglob_Integra.svc?wsdl" />
+    <MetadataFile FileName="Soluglob_Integra.disco" MetadataType="Disco" ID="bafc42f6-edbe-4042-baff-399bdabd1554" SourceId="1" SourceUrl="http://localhost:58142/Soluglob_Integra.svc?disco" />
+    <MetadataFile FileName="Soluglob_Integra4.xsd" MetadataType="Schema" ID="35661cf5-ea26-4106-9e6c-c6fd406ed46d" SourceId="1" SourceUrl="http://localhost:58142/Soluglob_Integra.svc?xsd=xsd2" />
+    <MetadataFile FileName="Soluglob_Integra3.xsd" MetadataType="Schema" ID="422a85a6-0285-4bd1-a190-f79ebe85cf09" SourceId="1" SourceUrl="http://localhost:58142/Soluglob_Integra.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

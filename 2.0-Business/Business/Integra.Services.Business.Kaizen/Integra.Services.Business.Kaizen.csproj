@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9333788A-E301-4C08-837C-6B44AA8647B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Integra.Services.Business.Kaizen</RootNamespace>
+    <AssemblyName>Integra.Services.Business.Kaizen</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Empleados\Empleado.cs" />
+    <Compile Include="Empleados\H_Laboral.cs" />
+    <Compile Include="Empleados\H_Personal.cs" />
+    <Compile Include="Empleados\H_Sueldos.cs" />
+    <Compile Include="Empleados\H_Valores_X_Emp.cs" />
+    <Compile Include="Empleados\Tel_Empleados.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\0.0-Entities\Entities\Integra.Services.Entities.Kaizen\Integra.Services.Entities.Kaizen.csproj">
+      <Project>{cdaae928-3a74-41e7-8cda-7856de9fdb14}</Project>
+      <Name>Integra.Services.Entities.Kaizen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\0.0-Entities\Entities\Integra.Services.Entities.QProcess\Integra.Services.Entities.QProcess.csproj">
+      <Project>{c6edb310-b01e-43a3-96a8-00175a765d6d}</Project>
+      <Name>Integra.Services.Entities.QProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\1.0-Data\Data\Integra.Services.Data.Kaizen\Integra.Services.Data.Kaizen.csproj">
+      <Project>{278d123f-d860-45f2-a2a8-ffe23c0fe0f7}</Project>
+      <Name>Integra.Services.Data.Kaizen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\1.0-Data\Data\Integra.Services.Data.QProcess\Integra.Services.Data.QProcess.csproj">
+      <Project>{4d9f4afb-9d8f-40e0-a218-1f49132db666}</Project>
+      <Name>Integra.Services.Data.QProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Integra.Services.Business.Log\Integra.Services.Business.Log.csproj">
+      <Project>{e0fc5d51-0642-4216-bb98-7de3364412dc}</Project>
+      <Name>Integra.Services.Business.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

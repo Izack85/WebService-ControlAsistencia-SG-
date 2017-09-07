@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.ServiceModel.Web;
+using System.Text;
+using Entities = Integra.Services.Entities.QProcess;
+
+namespace Integra.Services.Soluglob_Integra
+{
+    [ServiceContract]
+    public interface ISoluglob_Integra
+    {
+        [OperationContract]
+        [WebInvoke(
+         UriTemplate = "InsertEmpleado",
+         Method = "POST",
+         ResponseFormat = WebMessageFormat.Json,
+         RequestFormat = WebMessageFormat.Json,
+         BodyStyle = WebMessageBodyStyle.Wrapped
+        )]
+        bool InsertEmpleado(Entities.QProcess.Empleados.QProcessKaizen EmpleadoQP);
+
+        [OperationContract]
+        [WebInvoke(
+          UriTemplate = "GetOneEmpleado",
+          Method = "POST",
+          ResponseFormat = WebMessageFormat.Json,
+          RequestFormat = WebMessageFormat.Json,
+          BodyStyle = WebMessageBodyStyle.Wrapped
+        )]
+        Entities.Kaizen.Empleados.Empleado GetOneEmpleado(string Compania, string NumEmpleado);
+
+        [OperationContract]
+        [WebInvoke(
+          UriTemplate = "GetAllEmpleado",
+          Method = "POST",
+          ResponseFormat = WebMessageFormat.Json,
+          RequestFormat = WebMessageFormat.Json,
+          BodyStyle = WebMessageBodyStyle.Wrapped
+        )]
+        List<Entities.Kaizen.Empleados.Empleado> GetAllEmpleado();
+
+        [OperationContract]
+        [WebInvoke(
+          UriTemplate = "UpdateEmpleado",
+          Method = "POST",
+          ResponseFormat = WebMessageFormat.Json,
+          RequestFormat = WebMessageFormat.Json,
+          BodyStyle = WebMessageBodyStyle.Wrapped
+        )]
+        string UpdateEmpleado(Entities.Kaizen.Empleados.Empleado Empleado);
+
+        [OperationContract]
+        [WebInvoke(
+          UriTemplate = "DeleteEmpleado",
+          Method = "POST",
+          ResponseFormat = WebMessageFormat.Json,
+          RequestFormat = WebMessageFormat.Json,
+          BodyStyle = WebMessageBodyStyle.Wrapped
+       )]
+        void DeleteEmpleado(string Compania, string NumEmpleado);
+        [OperationContract]
+        [WebInvoke(
+          UriTemplate = "InsertEmpleadoSG",
+          Method = "POST",
+          ResponseFormat = WebMessageFormat.Json,
+          RequestFormat = WebMessageFormat.Json,
+          BodyStyle = WebMessageBodyStyle.Wrapped
+       )]
+<<<<<<< local
+        bool InsertEmpleadoSG(Entities.QProcess.Empleados.QProcessSoluglob EmpleadoQP);
+=======
+        int InsertEmpleadoSG(Entities.QProcess.QProcessSoluglob EmpleadoQP);
+>>>>>>> other
+
+        [OperationContract]
+        [WebInvoke(
+          UriTemplate = "GetOneEmpleadoSG",
+          Method = "POST",
+          ResponseFormat = WebMessageFormat.Json,
+          RequestFormat = WebMessageFormat.Json,
+          BodyStyle = WebMessageBodyStyle.Wrapped
+        )]
+<<<<<<< local
+        Entities.QProcess.Empleados.QProcessSoluglob GetOneEmpleadoSG(int IdEntrevistaCandidato);
+=======
+        int GetOneEmpleadoSG(int IdEntrevistaCandidato);
+>>>>>>> other
+    }
+}
